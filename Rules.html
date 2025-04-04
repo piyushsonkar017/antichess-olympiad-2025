@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antichess Olympiad - Rules</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #1a1a1a;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 600;
+            color: #ff4b2b;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ff4b2b;
+        }
+        main {
+            padding: 100px 40px 40px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #ff4b2b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Antichess Olympiad 2025</div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Rules.html">Rules</a></li>
+                <li><a href="Teams.html">Teams</a></li>
+                <li><a href="Standings.html">Standings</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Boilerplate Rules</h1>
+            <p>If you have participated in previous tournaments like the LAWC, ACWC or etc, you can skip this
+                section and go directly to the tournament-specific rules. However, the "Boilerplate Rules" also
+                apply</p>
+        </section>
+        <section>
+            <h2>1. Tournament Organisation</h2>
+            <p><ol><li>This tournament will be played on Lichess only.</li>
+                <li>In case of any disputes, the Tournament Directors (TDs) must be contacted, who hold
+                the right to make the final decision.</li>
+                <li>Failure to comply with the rules of the tournament might result in disqualification at the
+                TD's discretion.</li>
+                <li>If a player withdraws from the tournament, their previous match results are kept as it is.</li></ol></p>
+        </section>
+        <section>
+            <h2>2. Player Eligibility</h2>
+            <p><ol><li>The player's account must be created at least 6 months before the time at which they
+                register. If you have an account which doesn't satisfy the age requirement but you have
+                had an older account, you are requested to play from the older account ,which satisfies
+                the age requirement.</li>
+                <li>The player must have at least 1000 rated antichess games played on lichess on the
+                account on which they are registering. At least 100 must have been within the last 3
+                months.</li>
+                <li> The player must not have:<ul>
+                <li>one cheat-detected game in the past 12 months.</li>
+                <li>two cheat-detected games in the past 24 months.</li></ul></li>
+                <li>If a player is found to have been banned by lichess in the past 12 months, they cannot
+                participate. If this is found after the tournament starts, they are disqualified, and all their
+                played matches are forfeited in favour of their opponents.</li>
+                <li>If a player is found to have entered the tournament with multiple accounts, both accounts
+                are disqualified, and the player may or may not be restricted from participating in future
+                Antichess tournaments.</li>
+                <li>BOT accounts cannot play.</li>
+                <li>The player must have a non-provisional antichess rating at the time of the
+                announcement of the initial pairings.</li></ol></p>
+        </section>
+        <section>
+            <h2>3. Armageddon Rules</h2>
+            <p><ol><li>Black gets 3 minutes on the clock and draw odds (if a draw happens, Black is
+                considered the winner).</li>
+                <li>There is no increment.</li>
+                <li>Both players make a time offer for White. The lowest offer plays White.</li>
+                <li>In case of identical offers, the flip of a coin on the House Discord Server will decide who
+                gets White.</li>
+                <li>The offers must be made privately to a TD who is online at the time the time of the
+                armageddon game. If no TD is online, the players may mutually agree to have a third
+                party mediate the offers.</li></ol></p>
+        </section>
+        <section>
+            <h2>4. Timeline</h2>
+            <p><ol><li>There is one match per week in all rounds.</li>
+                <li>The new pairings will be published every Tuesday (at max).</li>
+                <li>All matches of a round must be finished by Monday 23:59 UTC.</li>
+                <li>The TD reserves the right to prepone the future deadlines if all matches finish earlier
+                than Monday 23:59 UTC.</li></ol></p>
+        </section>
+        <section>
+            <h2>5. Match Negotiations</h2>
+            <p><ol><li>Each player is required to offer at least 3 separate times at which they can play to their
+                opponents within 72 hours of the end of the previous round unless an offer has been
+                accepted before that.</li>
+                <li>You may begin scheduling with your opponent as soon as the pairing is known.</li>
+                <li>You must ping your opponent on the forum for any post that concerns them. Editing a
+                post is not allowed.</li>
+                <li>To prevent time zone confusion, you must communicate all times in UTC.</li>
+                <li>A player must be able to accept new messages while being included in the pairings.</li>
+                <li>The 3 offered times must not all be within 24 hours of each other and at least 3 hours
+                apart.</li>
+                <li>If someone is found to purposely repeatedly offer unsuitable times to their opponent just
+                so that they can claim a forfeit (eg: your 3 offered times are all 2-3 am for your opponent,
+                and when your opponent asks you to offer more, you offer the same ones on different
+                dates), the TDs may take action on you.</li>
+                <li>If 3 offers are not made in time, the player at fault must accept an offer made by their
+                opponent.</li>
+                <li>If both players make 3 offers and none of the 6 times are suitable for both players, each
+                player must offer 3 more times, different from the ones offered before.</li>
+                <li>If no agreement is reached before the weekend, the TDs will determine if the fault lies
+                with a particular player.</li>
+                <li>It is not allowed to agree to a draw without playing the series.</li>
+                <li>If the TDs determine the fault of one player, the player must accept an offer given by
+                their opponent.</li>
+                <li>If no player is at fault, the match will be ruled as a 0-0 draw. Note that this will affect your
+                team's tiebreaks, so it is recommended to put forth your best efforts to schedule a
+                match.</li>
+                <li>Case-by-case exceptions can be made at the TD's discretion.</li></ol></p>
+        </section>
+        <section>
+            <h2>6. Reporting Cheats</h2>
+            <p><ol><li>Accusations of cheating must be made privately to the TDs. Any accusation in public will
+                result in the disqualification of the accuser, regardless of whether the accusation was
+                true or not.</li>
+                <li>For the above rules, "Public" also includes the non-private channels on discord servers
+                whose link is available for anybody to join (eg: Lidiscord, The House Discord, etc)</li></ol></p>
+        </section>
+        <section>
+            <h2>7. Match Rules (except the format)</h2>
+            <p><ol><li>Each player has a right to call a break once during a match. The break can last a
+                maximum of 10 minutes.</li>
+                <li>If no break is called, the rematch offer must be accepted immediately. Repeated failure
+                to do so will result in a forfeit.</li>
+                <li>If a player leaves without completing the match, they get 10 minutes to come back, and
+                this is counted as their break. If they don't come back in 10 minutes, their opponent gets
+                the option to claim the win. If they have already utilised their break before they left, their
+                opponent immediately gets the option to claim a win.</li>
+                <li>If a player forfeits twice, they are disqualified from the tournament.</li>
+                </ol></p>
+        </section>
+        <section>
+           <h2>8. Disqualification and Withdrawals</h2>
+            <p><ol><li>If a player is disqualified while having an incomplete pairing, their opponent wins the
+                match.</li>
+                <li>If a player is banned by lichess, they have the opportunity to prove to the TDs that their
+                ban was NOT for cheating. If they can prove it, their completed matches are reopened. If
+                they cannot, their completed matches are adjudicated in favour of their opponents.</li>
+                <li>If a player gets banned by lichess for games not related to the tournament, they are still
+                disqualified, and the above condition applies.</li>
+                </ol></p>
+        </section> 
+
+        <section>
+            <h1>Tournament-Specific Rules</h1>
+            <p>These are the rules which are different from the ones used in previous tournaments</p>
+        </section>
+        <section>
+            <h2>9. Tournament Format</h2>
+            <p><ol><li>There will be teams of 4 players each, who will compete against each other in a
+                Swiss-System Tournament. However, if the number of teams participating is less than
+                10, each team will be reduced to 3 players each.</li>
+                <li>The tournament will only happen if the number of teams participating are 10 or above.
+                </li>
+                <li>The next stage after the Swiss-system will be a knockout stage between the top teams.
+                The number of teams qualifying to the knockout stage are:<br>
+                Number of Teams&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Knockout Stage<br>
+                10 to 15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  Top 4 Teams<br>
+                16 to 31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  Top 8 Teams<br>
+                32 to 63&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  Top 16 Teams<br>
+                If more than 63 teams participate, then a Candidates Stage will be held, similar to ACWC
+                and LAWC. The rules for the candidates stage will be announced soon after the closure
+                of registrations, if it is required.</li>
+                <li>If a player withdraws from the tournament, they go through the same process as a player
+                getting disqualified from the tournament, and the case is treated as such. However, their
+                previous match results are not affected.</li>
+                </ol></p>
+        </section>
+        <section>
+            <h2>10. Team Rules</h2>
+            <p><ol><li>A player can only be part of one team. You also cannot make a team in which you are on
+                multiple boards.</li>
+                <li>While registering, players are requested to register their entire team at once. However, if
+                players want to register but haven't found teammates yet, they can contact the TDs, and
+                the TDs will recommend them teammates.</li>
+                <li>Each team should assign one player as the captain (it is recommended to make the
+                strongest player the captain).</li>
+                <li>Each team should not have more than two AGM or higher in it.</li>
+                <li>If a player is eligible for AGM title but hasn't claimed it yet, they are considered an AGM
+                or higher for seeding.</li>
+                <li>The 6 strongest players currently: Pinni, Preslav, TUGR, Tetiksh, Sude and Valentino will
+                all be in different teams if they decide to participate.</li>
+                <li> Restrictions for players on board 4:<ol>
+                <li>If a team has 2 players who are AGM or above, their Board 4 player should not
+                be above 2000 rating.</li>
+                <li>If a team has only 1 ASGM and no AGM, their board 4 should not be above 2100
+                rating.</li>
+                <li>If a team has only 1 AGM and no ASGM, their board 4 should not be above 2150
+                rating.</li>
+                <li>If a team has no AGM or ASGM, their board 4 should not be above 2200 rating.</li></ol></li>
+                <li>The rating restriction counts since 1 January 2025. If the player has crossed the rating
+                threshold before 1 January 2025 but not after (they should not be rated above the
+                threshold since 1 Jan), they are eligible.
+                <ol><li>If a player crosses their rating threshold on three different days or more since 1st
+                January 2025, they are considered above that rating. Players crossing the rating
+                cap once or twice since 1st January 2025 and then falling back are not
+                considered above their threshold.</li>
+                <li>If the player crosses the rating threshold and maintains it for more than one day,
+                they are considered above the threshold.</li>
+                <li>Players crossing the threshold with a high RD (Above 80) are not considered
+                above the threshold.</li></ol> </li>
+                <li>The team will have to replace the board 4 player if the player crosses the threshold
+                before 25th April 2025.</li>
+                <li>The 4 boards will be ranked according to the player's strength/rating. This is done by the
+                TDs when the team registers.</li>
+                <li>After the TDs determine the order of the players on each board, they will also inform the
+                captain of the team if the team is allowed to interchange the boards of certain players (if
+                the TDs think that those players are similar/comparable in strength/rating). The team is
+                allowed to make those changes and submit their final, board-wise list to a TD. The team
+                can also choose to keep the same order as given by the TDs.</li>
+                <li>Due to the above rule, it is also possible that your captain may end up not on board 1,
+                which is perfectly fine.</li>
+                <li>Each team is allowed to change their captain ONCE in the tournament. However, this
+                change will only take effect from future rounds.</li>
+                <li>To prevent discrepancies, no two TDs will be in the same team, and no TD will be the
+                team captain.</li>
+                <li>A team is allowed to have 5 members. However, only 4 players can play at a time. The
+                5th player is allowed to replace players who have a similar rating as the 5th player. For
+                this change to take effect, the team captain must inform the TD before the next week’s
+                pairings are released as to which player is going to sit out the next round.<ol>
+                <li>For the knockout stages, a team can only make changes to the lineup of 4
+                players who are going to play, if they finish their match (and win) before it is
+                known as to whom they will face in the next round.</li>
+                <li>Tip: It is not recommended to have a 5th member if all 4 players of the team are
+                apart in rating.</li></ol></li>
+                <li>If a player of a team gets disqualified, the team is allowed to name a replacement with
+                the following conditions:<ol>
+                <li>The replacement must be willing to participate in the tournament.</li>
+                <li>The replacement must qualify under the eligibility criteria.</li>
+                <li>If, after the disqualification of a previous player, the matches are re-opened, the
+                replacement must be willing to play the re-opened matches before the stage
+                ends.</li>
+                <li>The replacement must be at least 100 rating points lower in strength/rating than
+                the player the person is replacing.</li></ol></li>
+                <li>If two players from a team get disqualified during the tournament, the entire team gets
+                disqualified.</li>
+                <li>If the captain of the team gets disqualified, the entire team gets disqualified (the captain
+                cannot be replaced). However, if the player who is the current captain wants to be
+                replaced, the player has to make another player the captain (provided that the captain
+                hasn't been replaced before), and only after one round is played with another player as
+                captain can the initial captain withdraw.<ol>
+                <li>A team with 5 players is allowed to let their captain sit out of a round (if the 5th
+                player has a similar rating/strength as the captain).</li>
+                <li>The captain cannot sit out of the knockout stage.</li></ol></li>
+                <li>The team is allowed to include players who are chatbanned, but the Captain must be
+                willing to mediate for the chatbanned player and help the player schedule their matches.</li>
+                <li>A new feature on lichess gives a person a full communication ban, which prevents them
+                from even sending DMs to other players. These players cannot be captains. If such a
+                person exists on a team, the team Captain should inform the TDs before the start of the
+                tournament. During the tournament, the match negotiations of the person will be handled
+                by the captain.</li>
+                <li>The TDs may call for a team captain to be replaced if the original team captain is not
+                following the rules properly. If this is done, the team still has the option to change their
+                captain ONCE in the tournament after this, as long as the new captain is not the one
+                removed by the TDs.</li>
+                </ol></p>
+        </section>
+        <section>
+            <h2>11. Match Rules Related to Format</h2>
+             <p><ol><li>This tournament will have matches played over multiple time controls. Each match
+                between two players will have 3 parts:<ol>
+                <li>4 games of 2+5</li>
+                <li>6 games of 1+2</li>
+                <li>8 games of 0+2</li></ol></li>
+                <li>The parts can be played in any order the players decide. If they are not able to decide on
+                a particular order, the order to be followed will be 0+2, 2+5, 1+2.</li>
+                <li>The players have 1 minute between the two parts of the match to send a challenge to
+                their opponent of the time control of the next part. If the next part does not start within 1
+                minute of the end of the previous part, it is counted as the break of the player at fault. If
+                the break was already taken by the player at fault before, the opponent may choose to
+                claim a forfeit of that part of the match.</li>
+                <li>Each part of the match has equal scoring. Hence, 2.5-1.5 in 2+5 gives you more
+                points than 4.5-3.5 in 0+2.</li>
+                <li>Each part of the match has 48 points up for grabs. The points per win or draw in each
+                part are given below. A loss gives 0 points.<br>
+                Time Control&nbsp; | Win &nbsp;| Draw<br>
+                2+5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;12&nbsp;&nbsp;&nbsp; | &nbsp;6<br>
+                1+2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;8 &nbsp;&nbsp;&nbsp; | &nbsp;4<br>
+                0+2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;6 &nbsp;&nbsp;&nbsp; | &nbsp;3</li>
+                <li>Each match has 576 points up for grabs. If a team reaches 289, it wins the match.
+                However, it still has to play the remaining games (if any).</li>
+                <li>For the knockout stages, the match will be of 4 parts, with the extra part having 4 games
+                of 5+0, and similar scoring as 2+5. If the players cannot agree upon the order of playing
+                the time controls, the order should be 0+2, 2+5, 5+0, 1+2.</li>
+                <li>The final (and bronze medal match) will have 5 parts, with the extra part having 8 games
+                of 0.5+1, and similar scoring as 0+2. If the players cannot agree upon the order of
+                playing the time controls, the order should be 0+2, 2+5, 0.5+1. 5+0, 1+2.</li>
+                <li>The result of the match played must be given to your team captain, who will give the
+                result of the team to the TDs when all 4 players finish their matches.</li>
+                <li>Note that the individual score on each board adds up to make up the team total. Hence,
+                it is also possible for your team to lose on 3 boards, win on one and still win the match.</li>
+                <li>Since the scoring is complicated, the TDs will contact all the team captains on how to
+                report the scores to the TDs before the start of the tournament.</li>
+                 </ol></p>
+         </section>
+         <section>
+            <h2>12. Tiebreaks in Knockout Matches</h2>
+             <p><ol><li>If a knockout match ends in a tie on total score, then the first tiebreak applied is the
+                Captains' result.<ol>
+                <li>If both team captains are on the same board (have faced each other in the
+                match), then the winner of that match gets the "advantage point" for the tiebreak
+                match.</li>
+                <li>If both team captains were on different boards, no team captain gets the
+                "advantage point" for the tiebreak match.</li></ol></li>
+                <li>If no player has the "advantage point", then the captains play 4 games of 3+0 against
+                each other to decide the winner. If this ends as a 2-2 draw, an armageddon game is
+                played.</li>
+                <li>In the tiebreak match, the "advantage point" counts as a 1-0 score before the start of the
+                match for the player with the advantage point. Therefore, after the 4 games are played,
+                the player with the advantage point gets +1 added to his score. If the final score here
+                reaches 2.5-2.5, an armageddon game is played.</li>
+                 </ol></p>
+         </section>
+         <section>
+            <h2>13. General Rules Different from Previous Tournaments</h2>
+             <p><ol><li>TDs: The main tournament directors are cFlour and TheUnknownGuyReborn. Other
+                tournament directors (if any) will be announced soon.</li>
+                <li>Accusation of cheating: You are allowed to discuss the possibility of an opponent
+                cheating with the members of your team. However, if you talk about it to somebody
+                outside your team (especially to the person you are accusing), and they send
+                screenshots of you accusing them/some player to the TDs, you will be disqualified.</li>
+                <li>Tiebreaks: The ties for the Swiss Stage will be broken by:<ol>
+                <li>Points Difference (Points Scored - Points scored by your opponents against you)</li>
+                <li>Points Scored (If your team has had 0-0 draws between players, this will rank
+                you lower as compared to other teams)</li>
+                <li>Median-Buchholz Method</li></ol></li>
+                <li>Situations involving a TD: If a certain situation which requires a TD to get involved has
+                another TD as one of the players, the "player TD" will not take part in the decision
+                process.</li>
+                <li>Inbox Flooding: If a player is found to be bombarding their opponent with excessive
+                messages unrelated to the scheduling of matches, their opponent may contact a TD and
+                ask to cut off direct contact. Henceforth, the player sending excessive messages to their
+                opponents may only schedule matches through mediation by their team captain.<ol>
+                <li>If the captain does "Inbox Flooding" for no reason, the TDs reserve the right to
+                replace the captain.</li></ol></li>
+                <li>Duration: The tournament will last 9 weeks if the number of teams is 10-15. It will last 11
+                weeks if the number of teams is 15-31. Accordingly, two weeks more if more teams
+                register.</li>
+                <li>In case of any scenario not listed in the rules, the TDs reserve the right to decide at their
+                discretion.</li>
+                 </ol></p>
+         </section>
+    </main>
+</body>
+</html>
